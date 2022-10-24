@@ -1,49 +1,33 @@
-<?php
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-/** @var yii\web\View $this */
-/** @var yii\bootstrap5\ActiveForm $form */
-/** @var app\models\LoginForm $model */
+    <title>Login</title>
 
-use yii\bootstrap5\ActiveForm;
-use yii\bootstrap5\Html;
 
-$this->title = 'Login';
-$this->params['breadcrumbs'][] = $this->title;
-?>
-<div class="site-login">
-    <h1><?= Html::encode($this->title) ?></h1>
+    <link href="css/login.css" rel="stylesheet">
+  </head>
 
-    <p>Please fill out the following fields to login:</p>
-
-    <?php $form = ActiveForm::begin([
-        'id' => 'login-form',
-        'layout' => 'horizontal',
-        'fieldConfig' => [
-            'template' => "{label}\n{input}\n{error}",
-            'labelOptions' => ['class' => 'col-lg-1 col-form-label mr-lg-3'],
-            'inputOptions' => ['class' => 'col-lg-3 form-control'],
-            'errorOptions' => ['class' => 'col-lg-7 invalid-feedback'],
-        ],
-    ]); ?>
-
-        <?= $form->field($model, 'username')->textInput(['autofocus' => true]) ?>
-
-        <?= $form->field($model, 'password')->passwordInput() ?>
-
-        <?= $form->field($model, 'rememberMe')->checkbox([
-            'template' => "<div class=\"offset-lg-1 col-lg-3 custom-control custom-checkbox\">{input} {label}</div>\n<div class=\"col-lg-8\">{error}</div>",
-        ]) ?>
-
-        <div class="form-group">
-            <div class="offset-lg-1 col-lg-11">
-                <?= Html::submitButton('Login', ['class' => 'btn btn-primary', 'name' => 'login-button']) ?>
-            </div>
-        </div>
-
-    <?php ActiveForm::end(); ?>
-
-    <div class="offset-lg-1" style="color:#999;">
-        You may login with <strong>admin/admin</strong> or <strong>demo/demo</strong>.<br>
-        To modify the username/password, please check out the code <code>app\models\User::$users</code>.
-    </div>
-</div>
+  <body class="text-center">
+    <form class="form-signin" action="auxiliar.php?login=1" method="POST" >
+      <img class="mb-4" src="images/marca.png" alt="" width="300" height="300">
+      <h1 class="h3 mb-3 font-weight-normal">Entrar</h1>
+      <label for="email" class="sr-only">Email</label>
+      <input type="email" id="email" class="form-control" name="email" required autofocus>
+      <label for="senha" class="sr-only">Senha</label>
+      <input type="password" id="senha" class="form-control" name="senha" required>
+      <div class="checkbox mb-3">
+        <label>
+          <input type="checkbox" value="remember-me"> Lembrar senha
+        </label>
+		<div class="form-group">
+			<input name="enviar" id="enviar" type="submit" value="Enviar"  class="btn btn-primary " />
+			<input name="limpar" id="limpar" type="reset"  value="Limpar"  class="btn btn-info " />
+		</div>
+    </form>
+  </body>
+</html>
