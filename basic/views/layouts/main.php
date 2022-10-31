@@ -42,7 +42,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => '@w
             ['label' => 'Inico', 'url' => ['/site/index']],
             ['label' => 'Sobre', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Cadastro', 'url' => ['/site/Cadastro']],
+            ['label' => 'Cadastro', 'url' => ['/donatarios/create']],
             Yii::$app->user->isGuest
                 ? ['label' => 'Login', 'url' => ['/site/login']]
                 : '<li class="nav-item">'
