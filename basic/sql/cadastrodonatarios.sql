@@ -30,7 +30,7 @@ SET time_zone = "+00:00";
 CREATE TABLE `cadastrodonatarios` (
   `idcaddonatario` int(10) NOT NULL,
   `nome` varchar(50) NOT NULL,
-  `cpf/cnpj` varchar(35) NOT NULL,
+  `cpfcnpj` varchar(35) NOT NULL,
   `telefone` varchar(25) NOT NULL,
   `endereco` varchar(150) NOT NULL,
   `email` varchar(50) NOT NULL,

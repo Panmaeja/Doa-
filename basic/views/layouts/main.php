@@ -53,6 +53,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => '@w
                     )
                     . Html::endForm()
                     . '</li>'
+
         ]
     ]);
     NavBar::end();
