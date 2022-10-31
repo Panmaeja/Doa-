@@ -6,7 +6,6 @@ $this->title = 'Doa+';
 ?>
 <div class="site-index">
 
-
     <div class="jumbotron text-center bg-transparent">
        
         <img src="../img/logo.PNG">
