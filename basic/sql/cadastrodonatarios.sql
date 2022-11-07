@@ -27,7 +27,7 @@ SET time_zone = "+00:00";
 -- Estrutura da tabela `cadastrodonatarios`
 --
 
-CREATE TABLE `cadastrodonatarios` (
+CREATE TABLE `donatarios` (
   `idcaddonatario` int(10) NOT NULL,
   `nome` varchar(50) NOT NULL,
   `cpfcnpj` varchar(35) NOT NULL,
