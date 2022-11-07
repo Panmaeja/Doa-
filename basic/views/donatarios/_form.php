@@ -36,15 +36,15 @@ use yii\widgets\ActiveForm;
     <?=$form->field($model, 'senha')->textInput(['maxlength' => true]) ?>
 
  
-    <div class="form-group">
-        <?= Html::submitButton('Salvar', ['class' => 'btn btn-success']) ?>
+    <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
+        <?= Html::submitButton('Salvar', ['class' => 'btn btn-primary btn-lg']) ?>
     </div>
 
     <?php ActiveForm::end(); ?>
     </form>
-    <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
 
-<img src="img/logo.png" class="img-fluid" alt="Sample image">
+    <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+    <img src="../img/logo.PNG" class="img-fluid" alt="Sample image">
     </div>
             </div>
           </div>
