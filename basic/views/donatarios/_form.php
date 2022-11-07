@@ -33,6 +33,19 @@ use yii\widgets\ActiveForm;
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
+                    <h6 class="mb-2 pb-1">Pessoa: </h6>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Fisica"
+    value="option1" checked />
+  <label class="form-check-label" for="Fisica">Fisica</label>
+</div>
+
+<div class="form-check form-check-inline">
+  <input class="form-check-input" type="radio" name="inlineRadioOptions" id="Jurudica"
+    value="option2" />
+  <label class="form-check-label" for="Juridica">Juridica</label>
+</div>
     <?= $form->field($model, 'cpfcnpj')->textInput(['maxlength, placeholder="xxx.xxx.xxx-xx"' => true]) ?>
     </div>
     </div>
