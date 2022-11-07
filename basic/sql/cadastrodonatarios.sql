@@ -44,7 +44,7 @@ CREATE TABLE `donatarios` (
 --
 -- Índices para tabela `cadastrodonatarios`
 --
-ALTER TABLE `cadastrodonatarios`
+ALTER TABLE `donatarios`
   ADD PRIMARY KEY (`idcaddonatario`);
 
 --
@@ -54,7 +54,7 @@ ALTER TABLE `cadastrodonatarios`
 --
 -- AUTO_INCREMENT de tabela `cadastrodonatarios`
 --
-ALTER TABLE `cadastrodonatarios`
+ALTER TABLE `donatarios`
   MODIFY `idcaddonatario` int(10) NOT NULL AUTO_INCREMENT;
 COMMIT;
 
