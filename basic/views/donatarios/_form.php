@@ -22,19 +22,48 @@ use yii\widgets\ActiveForm;
 <div class="donatarios-form">
 
     <?php $form = ActiveForm::begin(); ?>
-
+    
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
+    </div>
+    </div>
 
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?= $form->field($model, 'cpfcnpj')->textInput(['maxlength' => true]) ?>
+    </div>
+    </div>
 
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?= $form->field($model, 'telefone')->textInput(['maxlength' => true]) ?>
+    </div>
+    </div>
 
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?= $form->field($model, 'endereco')->textInput(['maxlength' => true]) ?>
+    </div>
+    </div>
 
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
+    </div>
+    </div>
 
+    <div class="d-flex flex-row align-items-center mb-4">
+                    <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                    <div class="form-outline flex-fill mb-0">
     <?=$form->field($model, 'senha')->textInput(['maxlength' => true]) ?>
-
+    </div>
+    </div>
  
     <div class="d-flex justify-content-center mx-4 mb-3 mb-lg-4">
         <?= Html::submitButton('Salvar', ['class' => 'btn btn-primary btn-lg']) ?>
