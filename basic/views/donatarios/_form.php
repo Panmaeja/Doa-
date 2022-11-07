@@ -22,39 +22,39 @@ use yii\widgets\ActiveForm;
 <div class="donatarios-form">
 
     <?php $form = ActiveForm::begin(); ?>
-    
+
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'nome')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'nome')->textInput(['maxlength, placeholder="Nome completo"' => true]) ?>
     </div>
     </div>
 
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'cpfcnpj')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'cpfcnpj')->textInput(['maxlength, placeholder="xxx.xxx.xxx-xx"' => true]) ?>
     </div>
     </div>
 
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'telefone')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'telefone')->textInput(['maxlength, placeholder="(xx)xxxxx-xxxx"' => true]) ?>
     </div>
     </div>
 
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'endereco')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'endereco')->textInput(['maxlength, placeholder=" Avenida Lins de Vasconcelos, 234; Avenida Paulista, 316, apartamento 13. "' => true]) ?>
     </div>
     </div>
 
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'email')->textInput(['maxlength' => true]) ?>
+    <?= $form->field($model, 'email')->textInput(['maxlength, placeholder="exemplo@gmail.com"' => true]) ?>
     </div>
     </div>
 
