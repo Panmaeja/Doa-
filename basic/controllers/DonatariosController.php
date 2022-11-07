@@ -31,21 +31,6 @@ class DonatariosController extends Controller
         );
     }
 
-    /**
-     * Lists all Donatarios models.
-     *
-     * @return string
-     */
-    public function actionIndex()
-    {
-        $searchModel = new DonatariosSearch();
-        $dataProvider = $searchModel->search($this->request->queryParams);
-
-        return $this->render('index', [
-            'searchModel' => $searchModel,
-            'dataProvider' => $dataProvider,
-        ]);
-    }
 
     /**
      * Displays a single Donatarios model.

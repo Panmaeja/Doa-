@@ -5997,3 +5997,1509 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1667842990.8277
     'REQUEST_TIME' => 1667842990
 ]
+2022-11-07 18:53:56 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\captcha\Captcha.php:175
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\captcha\Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Widget.php(143): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(795): yii\base\Widget::widget(Array)
+#8 C:\xampp\htdocs\Doa-\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#13 C:\xampp\htdocs\Doa-\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('contact', Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2022-11-07 18:53:55 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50366'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667843635.9566
+    'REQUEST_TIME' => 1667843635
+]
+2022-11-07 18:57:14 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][Error] Error: Class "app\controllers\DonatariosSearch" not found in C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php:40
+Stack trace:
+#0 [internal function]: app\controllers\DonatariosController->actionIndex()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/inde...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2022-11-07 18:57:14 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50393'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Findex'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Findex'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667843834.4529
+    'REQUEST_TIME' => 1667843834
+]
+2022-11-07 18:57:16 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][Error] Error: Class "app\controllers\DonatariosSearch" not found in C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php:40
+Stack trace:
+#0 [internal function]: app\controllers\DonatariosController->actionIndex()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/inde...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#6 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#7 {main}
+2022-11-07 18:57:16 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50394'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Findex'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Findex'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667843836.781
+    'REQUEST_TIME' => 1667843836
+]
+2022-11-07 19:01:12 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: donatarios/index in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/inde...', Array)
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2022-11-07 19:01:12 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50421'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Findex'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Findex'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844072.4445
+    'REQUEST_TIME' => 1667844072
+]
+2022-11-07 19:01:20 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: donatarios/index in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/inde...', Array)
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2022-11-07 19:01:20 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50424'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Findex'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Findex'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844080.056
+    'REQUEST_TIME' => 1667844080
+]
+2022-11-07 19:01:32 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: donatarios/index in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('index', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/inde...', Array)
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2022-11-07 19:01:32 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/index'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50430'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Findex'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Findex'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844092.5257
+    'REQUEST_TIME' => 1667844092
+]
+2022-11-07 19:06:45 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\InvalidArgumentException] yii\base\InvalidArgumentException: Attribute name must contain word characters only. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php:2233
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(929): yii\helpers\BaseHtml::getAttributeName('cpf/cnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(405): yii\widgets\ActiveField->addAriaAttributes(Array)
+#2 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#6 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#11 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#12 [internal function]: app\controllers\DonatariosController->actionCreate()
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+2022-11-07 19:06:45 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50583'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844405.8936
+    'REQUEST_TIME' => 1667844405
+]
+2022-11-07 19:07:01 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\InvalidConfigException] yii\base\InvalidConfigException: Either GD PHP extension with FreeType support or ImageMagick PHP extension with PNG support is required. in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\captcha\Captcha.php:175
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\captcha\Captcha.php(94): yii\captcha\Captcha::checkRequirements()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\BaseObject.php(109): yii\captcha\Captcha->init()
+#2 [internal function]: yii\base\BaseObject->__construct(Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\di\Container.php(419): ReflectionClass->newInstanceArgs(Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build('yii\\captcha\\Cap...', Array, Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get('yii\\captcha\\Cap...', Array, Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Widget.php(143): yii\BaseYii::createObject(Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(795): yii\base\Widget::widget(Array)
+#8 C:\xampp\htdocs\Doa-\basic\views\site\contact.php(55): yii\widgets\ActiveField->widget('yii\\captcha\\Cap...', Array)
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#13 C:\xampp\htdocs\Doa-\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#14 [internal function]: app\controllers\SiteController->actionContact()
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('contact', Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+2022-11-07 19:07:00 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50590'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844420.9645
+    'REQUEST_TIME' => 1667844420
+]
+2022-11-07 19:07:29 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::CpfCnpj in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('CpfCnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('CpfCnpj')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'CpfCnpj')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'CpfCnpj', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'CpfCnpj', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-07 19:07:29 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50599'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844449.7471
+    'REQUEST_TIME' => 1667844449
+]
+2022-11-07 19:07:38 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Cpfcnpj in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Cpfcnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Cpfcnpj')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Cpfcnpj')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-07 19:07:38 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50602'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844458.6796
+    'REQUEST_TIME' => 1667844458
+]
+2022-11-07 19:07:41 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Cpfcnpj in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Cpfcnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Cpfcnpj')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Cpfcnpj')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-07 19:07:41 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50605'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844461.1888
+    'REQUEST_TIME' => 1667844461
+]
+2022-11-07 19:07:42 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Cpfcnpj in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Cpfcnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Cpfcnpj')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Cpfcnpj')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-07 19:07:42 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50603'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844462.6038
+    'REQUEST_TIME' => 1667844462
+]
+2022-11-07 19:07:50 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Cpfcnpj in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Cpfcnpj')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Cpfcnpj')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Cpfcnpj')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Cpfcnpj', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(17): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-07 19:07:50 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50610'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667844470.4053
+    'REQUEST_TIME' => 1667844470
+]
+2022-11-07 19:18:15 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][ParseError] ParseError: syntax error, unexpected identifier "field", expecting "," or ";" in C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#2 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#7 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\DonatariosController->actionCreate()
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2022-11-07 19:18:15 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50749'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667845095.575
+    'REQUEST_TIME' => 1667845095
+]
+2022-11-07 19:18:53 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][ParseError] ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#2 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#7 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\DonatariosController->actionCreate()
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2022-11-07 19:18:53 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50760'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667845133.0442
+    'REQUEST_TIME' => 1667845133
+]
+2022-11-07 19:18:56 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][ParseError] ParseError: syntax error, unexpected token "<" in C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#2 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#7 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\DonatariosController->actionCreate()
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2022-11-07 19:18:56 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50763'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667845136.7214
+    'REQUEST_TIME' => 1667845136
+]
+2022-11-07 19:19:13 [::1][-][viohhtc8l1400pdu1ckqsf364e][error][ParseError] ParseError: syntax error, unexpected identifier "type", expecting "," or ";" in C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php:36
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#2 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(17): yii\base\View->render('_form', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#7 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#8 [internal function]: app\controllers\DonatariosController->actionCreate()
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#14 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#15 {main}
+2022-11-07 19:19:13 [::1][-][viohhtc8l1400pdu1ckqsf364e][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'viohhtc8l1400pdu1ckqsf364e'
+    '_csrf' => 'f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=viohhtc8l1400pdu1ckqsf364e; _csrf=f6f8b3f119296155dfb47f82543cfe8e55d80ae85c201b0f3380aeb9a8b2edbfa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22wx-4yS1jXmvu7Pc0Y9nrpgdIHaThBSAU%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50766'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1667845153.1103
+    'REQUEST_TIME' => 1667845153
+]
