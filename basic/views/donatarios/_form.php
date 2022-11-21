@@ -60,7 +60,7 @@ use yii\widgets\ActiveForm;
     <div class="d-flex flex-row align-items-center mb-4">
                     <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
                     <div class="form-outline flex-fill mb-0">
-    <?= $form->field($model, 'endereco')->textInput(['maxlength, placeholder=" Avenida Lins de Vasconcelos, 234; Avenida Paulista, 316, apartamento 13. "' => true]) ?>
+    <?= $form->field($model, 'endereco')->textInput(['maxlength, placeholder="Avenida Paulista, 316, apartamento 13"' => true]) ?>
     </div>
     </div>
 
