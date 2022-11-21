@@ -21,5 +21,5 @@ $this->params['breadcrumbs'][] = $this->title;
     recebam a visibilidade que merecem.
     </p>
 
-    <code><?= __FILE__ ?></code>
+
 </div>

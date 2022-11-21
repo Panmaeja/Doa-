@@ -7503,3 +7503,252 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1667845153.1103
     'REQUEST_TIME' => 1667845153
 ]
+2022-11-21 18:35:44 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Doa-\basic\views\site\contact.php in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\Doa-\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#3 [internal function]: app\controllers\SiteController->actionContact()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('contact', Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2022-11-21 18:35:44 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'm9ja3jprnkmvt04e40f8u0hvkh'
+    '_csrf' => '92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=m9ja3jprnkmvt04e40f8u0hvkh; _csrf=92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49946'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669052144.32
+    'REQUEST_TIME' => 1669052144
+]
+2022-11-21 18:36:01 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Doa-\basic\views\site\contact.php in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\Doa-\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#3 [internal function]: app\controllers\SiteController->actionContact()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('contact', Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2022-11-21 18:36:01 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'm9ja3jprnkmvt04e40f8u0hvkh'
+    '_csrf' => '92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=m9ja3jprnkmvt04e40f8u0hvkh; _csrf=92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49949'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669052161.0619
+    'REQUEST_TIME' => 1669052161
+]
+2022-11-21 18:42:17 [::1][100][u5eh5qg8a5e9mgj5torie6cmlv][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Doa-\basic\views\site\contact.php in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php:233
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('contact', Array, Object(app\controllers\SiteController))
+#2 C:\xampp\htdocs\Doa-\basic\controllers\SiteController.php(115): yii\base\Controller->render('contact', Array)
+#3 [internal function]: app\controllers\SiteController->actionContact()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('contact', Array)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('site/contact', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2022-11-21 18:42:17 [::1][100][u5eh5qg8a5e9mgj5torie6cmlv][info][application] $_GET = [
+    'r' => 'site/contact'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'u5eh5qg8a5e9mgj5torie6cmlv'
+    '_csrf' => 'e50275ca5639b74d70406a5527cd303b44940a5d2d3244f8382a4e61a0fe303ea:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XV4gx2c9AS6ibAjcdk3_LfOLNU9t5p9u\";}'
+    '_identity' => '0d2106fdee6812cf54de9fab7d3cfa0e5a3b513a44e83f6c2cb98238b9c1c7faa:2:{i:0;s:9:\"_identity\";i:1;s:28:\"[\"100\",\"test100key\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => '100'
+    '__authKey' => 'test100key'
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=u5eh5qg8a5e9mgj5torie6cmlv; _csrf=e50275ca5639b74d70406a5527cd303b44940a5d2d3244f8382a4e61a0fe303ea%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XV4gx2c9AS6ibAjcdk3_LfOLNU9t5p9u%22%3B%7D; _identity=0d2106fdee6812cf54de9fab7d3cfa0e5a3b513a44e83f6c2cb98238b9c1c7faa%3A2%3A%7Bi%3A0%3Bs%3A9%3A%22_identity%22%3Bi%3A1%3Bs%3A28%3A%22%5B%22100%22%2C%22test100key%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '50129'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fcontact'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fcontact'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669052537.2894
+    'REQUEST_TIME' => 1669052537
+]
