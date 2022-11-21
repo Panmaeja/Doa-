@@ -7920,3 +7920,1432 @@ $_SERVER = [
     'REQUEST_TIME' => 1669050667
 >>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]
+2022-11-21 20:05:02 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:05:02 [::1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49453'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/doa-/basic/web/'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057502.3801
+    'REQUEST_TIME' => 1669057502
+]
+2022-11-21 20:08:17 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:08:17 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49546'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057697.7093
+    'REQUEST_TIME' => 1669057697
+]
+2022-11-21 20:09:01 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:09:01 [::1][-][-][info][application] $_GET = [
+    '_csrf' => 'aisrLSpAlgfGziO4ZEoxWDhDt4574aqPSkNHLP7htlkyb2BFeDbUfYiEddA3IXAiQRKGuAqDyb4vKSRFh4rfEA=='
+    'Donatarios' => [
+        'nome' => 'jao do feijao'
+        'cpfcnpj' => '00000000000'
+        'telefone' => '00000000000'
+        'endereco' => 'avenida pauloInsta'
+        'email' => 'exemplo@gmail.com'
+        'senha' => '1234'
+    ]
+    'inlineRadioOptions' => 'option1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49554'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_csrf=aisrLSpAlgfGziO4ZEoxWDhDt4574aqPSkNHLP7htlkyb2BFeDbUfYiEddA3IXAiQRKGuAqDyb4vKSRFh4rfEA%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?_csrf=aisrLSpAlgfGziO4ZEoxWDhDt4574aqPSkNHLP7htlkyb2BFeDbUfYiEddA3IXAiQRKGuAqDyb4vKSRFh4rfEA%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057741.4568
+    'REQUEST_TIME' => 1669057741
+]
+2022-11-21 20:10:03 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:10:03 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?_csrf=aisrLSpAlgfGziO4ZEoxWDhDt4574aqPSkNHLP7htlkyb2BFeDbUfYiEddA3IXAiQRKGuAqDyb4vKSRFh4rfEA%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49568'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057803.5034
+    'REQUEST_TIME' => 1669057803
+]
+2022-11-21 20:12:00 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:00 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?_csrf=aisrLSpAlgfGziO4ZEoxWDhDt4574aqPSkNHLP7htlkyb2BFeDbUfYiEddA3IXAiQRKGuAqDyb4vKSRFh4rfEA%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057920.025
+    'REQUEST_TIME' => 1669057920
+]
+2022-11-21 20:12:08 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:08 [::1][-][-][info][application] $_GET = [
+    '_csrf' => 'KGlfIfrDvhbRgYAoIe3rGcGOu5uCmCd4adHLsdATggZwLRRJqLX8bJ_L1kByhqpjuN-KrfP6REkMu6jYqXjrTw=='
+    'Donatarios' => [
+        'nome' => 'jao do feijao'
+        'cpfcnpj' => '00000000000'
+        'telefone' => '00000000000'
+        'endereco' => 'avenida pauloInsta'
+        'email' => 'exemplo@gmail.com'
+        'senha' => '1234'
+    ]
+    'inlineRadioOptions' => 'option1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49590'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => '_csrf=KGlfIfrDvhbRgYAoIe3rGcGOu5uCmCd4adHLsdATggZwLRRJqLX8bJ_L1kByhqpjuN-KrfP6REkMu6jYqXjrTw%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?_csrf=KGlfIfrDvhbRgYAoIe3rGcGOu5uCmCd4adHLsdATggZwLRRJqLX8bJ_L1kByhqpjuN-KrfP6REkMu6jYqXjrTw%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057927.9895
+    'REQUEST_TIME' => 1669057927
+]
+2022-11-21 20:12:14 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:14 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?_csrf=KGlfIfrDvhbRgYAoIe3rGcGOu5uCmCd4adHLsdATggZwLRRJqLX8bJ_L1kByhqpjuN-KrfP6REkMu6jYqXjrTw%3D%3D&Donatarios%5Bnome%5D=jao+do+feijao&inlineRadioOptions=option1&Donatarios%5Bcpfcnpj%5D=00000000000&Donatarios%5Btelefone%5D=00000000000&Donatarios%5Bendereco%5D=avenida+pauloInsta&Donatarios%5Bemail%5D=exemplo%40gmail.com&Donatarios%5Bsenha%5D=1234'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49595'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057934.5489
+    'REQUEST_TIME' => 1669057934
+]
+2022-11-21 20:12:20 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:20 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/login'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49608'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Flogin'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Flogin'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057940.3172
+    'REQUEST_TIME' => 1669057940
+]
+2022-11-21 20:12:21 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Flogin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49609'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057940.9862
+    'REQUEST_TIME' => 1669057940
+]
+2022-11-21 20:12:21 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:21 [::1][-][-][info][application] $_GET = [
+    'r' => 'site/about'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49612'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=site%2Fabout'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=site%2Fabout'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057941.5383
+    'REQUEST_TIME' => 1669057941
+]
+2022-11-21 20:12:22 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:22 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49614'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057942.5973
+    'REQUEST_TIME' => 1669057942
+]
+2022-11-21 20:12:55 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:12:55 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49615'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057975.4262
+    'REQUEST_TIME' => 1669057975
+]
+2022-11-21 20:13:07 [::1][-][-][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 [internal function]: yii\log\Logger->flush(true)
+#7 {main}
+2022-11-21 20:13:07 [::1][-][-][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49623'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669057987.5149
+    'REQUEST_TIME' => 1669057987
+]
+2022-11-21 20:17:21 [::1][-][vqap1g1ntgvtv916dmbdiriau3][error][yii\base\ErrorException:64] yii\base\ErrorException: Cannot use yii\bootstrap5\ActiveForm as ActiveForm because the name is already in use in C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php:5
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2022-11-21 20:17:21 [::1][-][vqap1g1ntgvtv916dmbdiriau3][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49645'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669058241.2224
+    'REQUEST_TIME' => 1669058241
+]
+2022-11-21 20:17:21 [::1][-][vqap1g1ntgvtv916dmbdiriau3][warning][yii\log\Dispatcher::dispatch] Unable to send log via yii\debug\LogTarget: PHP Notice 'yii\base\ErrorException' with message 'unserialize(): Error at offset 0 of 42894 bytes' 
+
+in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php:151
+
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleError(8, 'unserialize(): ...', 'C:\\xampp\\htdocs...', 151)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(151): unserialize('<<<<<<< HEAD\r\na...')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(79): yii\debug\LogTarget->updateIndexFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2-debug\src\LogTarget.php(182): yii\debug\LogTarget->export()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Dispatcher.php(194): yii\debug\LogTarget->collect(Array, true)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\log\Logger.php(226): yii\log\Dispatcher->dispatch(Array, true)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\ErrorHandler.php(326): yii\log\Logger->flush(true)
+#7 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#8 {main}
+2022-11-21 20:17:21 [::1][-][vqap1g1ntgvtv916dmbdiriau3][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49645'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669058241.2224
+    'REQUEST_TIME' => 1669058241
+]
+2022-11-21 20:17:58 [::1][-][vqap1g1ntgvtv916dmbdiriau3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Nome in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Nome')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Nome')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Nome')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Nome', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Nome', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(31): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(16): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-21 20:17:58 [::1][-][vqap1g1ntgvtv916dmbdiriau3][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49646'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669058278.3845
+    'REQUEST_TIME' => 1669058278
+]
+2022-11-21 20:17:59 [::1][-][vqap1g1ntgvtv916dmbdiriau3][error][yii\base\UnknownPropertyException] yii\base\UnknownPropertyException: Getting unknown property: app\models\Donatarios::Nome in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Component.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\BaseActiveRecord.php(296): yii\base\Component->__get('Nome')
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(2256): yii\db\BaseActiveRecord->__get('Nome')
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1370): yii\helpers\BaseHtml::getAttributeValue(Object(app\models\Donatarios), 'Nome')
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\helpers\BaseHtml.php(1426): yii\helpers\BaseHtml::activeInput('text', Object(app\models\Donatarios), 'Nome', Array)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\widgets\ActiveField.php(407): yii\helpers\BaseHtml::activeTextInput(Object(app\models\Donatarios), 'Nome', Array)
+#5 C:\xampp\htdocs\Doa-\basic\views\donatarios\_form.php(31): yii\widgets\ActiveField->textInput(Array)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, NULL)
+#9 C:\xampp\htdocs\Doa-\basic\views\donatarios\create.php(16): yii\base\View->render('_form', Array)
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(347): require('C:\\xampp\\htdocs...')
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(257): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\DonatariosController))
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(407): yii\base\View->render('create', Array, Object(app\controllers\DonatariosController))
+#14 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(66): yii\base\Controller->render('create', Array)
+#15 [internal function]: app\controllers\DonatariosController->actionCreate()
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#20 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#21 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#22 {main}
+2022-11-21 20:17:59 [::1][-][vqap1g1ntgvtv916dmbdiriau3][info][application] $_GET = [
+    'r' => 'donatarios/create'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'vqap1g1ntgvtv916dmbdiriau3'
+    '_csrf' => '1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"104\", \" Not A;Brand\";v=\"99\", \"Google Chrome\";v=\"104\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/104.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'same-origin'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=vqap1g1ntgvtv916dmbdiriau3; _csrf=1112546e38ab4611531c8884151271e3c0aea09dd17121d34b2e8b1bec964286a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XDKhRvBzNJVhSkAzyQ16qbc1ejciykiI%22%3B%7D'
+    'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.52 (Win64) OpenSSL/1.1.1m PHP/8.1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+    'REMOTE_PORT' => '49652'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/doa-/basic/web/index.php'
+    'PHP_SELF' => '/doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669058279.9056
+    'REQUEST_TIME' => 1669058279
+]
