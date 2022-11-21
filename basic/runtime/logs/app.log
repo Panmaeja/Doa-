@@ -7503,6 +7503,7 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1667845153.1103
     'REQUEST_TIME' => 1667845153
 ]
+<<<<<<< HEAD
 2022-11-21 18:35:44 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][error][yii\base\ViewNotFoundException] yii\base\ViewNotFoundException: The view file does not exist: C:\xampp\htdocs\Doa-\basic\views\site\contact.php in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php:233
 Stack trace:
 #0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\View.php(156): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(app\controllers\SiteController))
@@ -7518,6 +7519,65 @@ Stack trace:
 #10 {main}
 2022-11-21 18:35:44 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][info][application] $_GET = [
     'r' => 'site/contact'
+=======
+2022-11-21 18:10:02 [::1][-][ttpjtaf8obqvfpkguc9cdjne3b][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'cadastrodonatarios' in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('donatarios')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('donatarios', 'schema', false)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('donatarios')
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(118): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(62): yii\db\ActiveRecord->loadDefaultValues()
+#14 [internal function]: app\controllers\DonatariosController->actionCreate()
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'cadastrodonatarios' in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('donatarios')
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('donatarios', 'schema', false)
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('donatarios')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(118): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(62): yii\db\ActiveRecord->loadDefaultValues()
+#12 [internal function]: app\controllers\DonatariosController->actionCreate()
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'cadastrodonatarios'
+)
+
+2022-11-21 18:10:02 [::1][-][ttpjtaf8obqvfpkguc9cdjne3b][info][application] $_GET = [
+    'r' => 'donatarios/create'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]
 
 $_POST = []
@@ -7525,8 +7585,13 @@ $_POST = []
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'PHPSESSID' => 'm9ja3jprnkmvt04e40f8u0hvkh'
     '_csrf' => '92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW\";}'
+=======
+    'PHPSESSID' => 'ttpjtaf8obqvfpkguc9cdjne3b'
+    '_csrf' => '4b4a6fb16f4f3222ec0a082e2dfaa549003263d67132725b5c33e88284ebfeb8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2zZuk_8sz_Ei39awzbxX5d9l5go0hDW5\";}'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]
 
 $_SESSION = [
@@ -7552,10 +7617,17 @@ $_SERVER = [
     'HTTP_SEC_FETCH_MODE' => 'navigate'
     'HTTP_SEC_FETCH_USER' => '?1'
     'HTTP_SEC_FETCH_DEST' => 'document'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
     'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
     'HTTP_COOKIE' => 'PHPSESSID=m9ja3jprnkmvt04e40f8u0hvkh; _csrf=92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW%22%3B%7D'
+=======
+    'HTTP_REFERER' => 'http://localhost/Doa-/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ttpjtaf8obqvfpkguc9cdjne3b; _csrf=4b4a6fb16f4f3222ec0a082e2dfaa549003263d67132725b5c33e88284ebfeb8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222zZuk_8sz_Ei39awzbxX5d9l5go0hDW5%22%3B%7D'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
     'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -7574,6 +7646,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '49946'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7600,6 +7673,76 @@ Stack trace:
 #10 {main}
 2022-11-21 18:36:01 [::1][-][m9ja3jprnkmvt04e40f8u0hvkh][info][application] $_GET = [
     'r' => 'site/contact'
+=======
+    'REMOTE_PORT' => '49491'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/Doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/Doa-/basic/web/index.php'
+    'PHP_SELF' => '/Doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669050602.6751
+    'REQUEST_TIME' => 1669050602
+]
+2022-11-21 18:11:07 [::1][-][ttpjtaf8obqvfpkguc9cdjne3b][error][yii\db\Exception] PDOException: SQLSTATE[HY000] [1049] Unknown database 'cadastrodonatarios' in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php:722
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(722): PDO->__construct('mysql:host=loca...', 'root', '', NULL)
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(637): yii\db\Connection->createPdoInstance()
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('donatarios')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('donatarios', 'schema', false)
+#11 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('donatarios')
+#12 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(118): yii\db\ActiveRecord::getTableSchema()
+#13 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(62): yii\db\ActiveRecord->loadDefaultValues()
+#14 [internal function]: app\controllers\DonatariosController->actionCreate()
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#18 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#19 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#20 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#21 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000] [1049] Unknown database 'cadastrodonatarios' in C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php:648
+Stack trace:
+#0 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1067): yii\db\Connection->open()
+#1 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Connection.php(1054): yii\db\Connection->getMasterPdo()
+#2 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(261): yii\db\Connection->getSlavePdo()
+#3 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(1163): yii\db\Command->prepare(true)
+#4 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Command.php(410): yii\db\Command->queryInternal('fetchAll', NULL)
+#5 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(320): yii\db\Command->queryAll()
+#6 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\mysql\Schema.php(125): yii\db\mysql\Schema->findColumns(Object(yii\db\TableSchema))
+#7 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(756): yii\db\mysql\Schema->loadTableSchema('donatarios')
+#8 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\Schema.php(192): yii\db\Schema->getTableMetadata('donatarios', 'schema', false)
+#9 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(439): yii\db\Schema->getTableSchema('donatarios')
+#10 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\db\ActiveRecord.php(118): yii\db\ActiveRecord::getTableSchema()
+#11 C:\xampp\htdocs\Doa-\basic\controllers\DonatariosController.php(62): yii\db\ActiveRecord->loadDefaultValues()
+#12 [internal function]: app\controllers\DonatariosController->actionCreate()
+#13 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#14 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams(Array)
+#15 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction('create', Array)
+#16 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction('donatarios/crea...', Array)
+#17 C:\xampp\htdocs\Doa-\basic\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest(Object(yii\web\Request))
+#18 C:\xampp\htdocs\Doa-\basic\web\index.php(12): yii\base\Application->run()
+#19 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1049
+    [2] => Unknown database 'cadastrodonatarios'
+)
+
+2022-11-21 18:11:07 [::1][-][ttpjtaf8obqvfpkguc9cdjne3b][info][application] $_GET = [
+    'r' => 'donatarios/create'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]
 
 $_POST = []
@@ -7607,8 +7750,13 @@ $_POST = []
 $_FILES = []
 
 $_COOKIE = [
+<<<<<<< HEAD
     'PHPSESSID' => 'm9ja3jprnkmvt04e40f8u0hvkh'
     '_csrf' => '92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW\";}'
+=======
+    'PHPSESSID' => 'ttpjtaf8obqvfpkguc9cdjne3b'
+    '_csrf' => '4b4a6fb16f4f3222ec0a082e2dfaa549003263d67132725b5c33e88284ebfeb8a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"2zZuk_8sz_Ei39awzbxX5d9l5go0hDW5\";}'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]
 
 $_SESSION = [
@@ -7634,10 +7782,17 @@ $_SERVER = [
     'HTTP_SEC_FETCH_MODE' => 'navigate'
     'HTTP_SEC_FETCH_USER' => '?1'
     'HTTP_SEC_FETCH_DEST' => 'document'
+<<<<<<< HEAD
     'HTTP_REFERER' => 'http://localhost/doa-/basic/web/index.php?r=site%2Fabout'
     'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
     'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
     'HTTP_COOKIE' => 'PHPSESSID=m9ja3jprnkmvt04e40f8u0hvkh; _csrf=92875e4c82a403461d5874ae3f03d8b51b4a532b0f4fcd136a276f2726fc79e7a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22pNL9TnwuWD7sQVrNfB_3CoxbBD2eMfkW%22%3B%7D'
+=======
+    'HTTP_REFERER' => 'http://localhost/Doa-/basic/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7'
+    'HTTP_COOKIE' => 'PHPSESSID=ttpjtaf8obqvfpkguc9cdjne3b; _csrf=4b4a6fb16f4f3222ec0a082e2dfaa549003263d67132725b5c33e88284ebfeb8a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%222zZuk_8sz_Ei39awzbxX5d9l5go0hDW5%22%3B%7D'
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
     'PATH' => 'C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files (x86)\\ATI Technologies\\ATI.ACE\\Core-Static;C:\\Program Files\\Microchip\\xc8\\v2.31\\bin;C:\\xampp\\php;C:\\composer;C:\\ProgramData\\UNIVALI\\Portugol Studio;C:\\Program Files\\Git\\cmd;;C:\\Users\\ADM\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\ADM\\AppData\\Roaming\\Composer\\vendor\\bin'
     'SystemRoot' => 'C:\\Windows'
     'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
@@ -7656,6 +7811,7 @@ $_SERVER = [
     'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
     'SERVER_ADMIN' => 'postmaster@localhost'
     'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Doa-/basic/web/index.php'
+<<<<<<< HEAD
     'REMOTE_PORT' => '49949'
     'GATEWAY_INTERFACE' => 'CGI/1.1'
     'SERVER_PROTOCOL' => 'HTTP/1.1'
@@ -7751,4 +7907,16 @@ $_SERVER = [
     'PHP_SELF' => '/doa-/basic/web/index.php'
     'REQUEST_TIME_FLOAT' => 1669052537.2894
     'REQUEST_TIME' => 1669052537
+=======
+    'REMOTE_PORT' => '49523'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=donatarios%2Fcreate'
+    'REQUEST_URI' => '/Doa-/basic/web/index.php?r=donatarios%2Fcreate'
+    'SCRIPT_NAME' => '/Doa-/basic/web/index.php'
+    'PHP_SELF' => '/Doa-/basic/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1669050667.1138
+    'REQUEST_TIME' => 1669050667
+>>>>>>> 5ccaec5648b2075bc800e5bde8c71bdd15b6b673
 ]

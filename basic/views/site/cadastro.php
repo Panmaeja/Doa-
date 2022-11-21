@@ -14,7 +14,7 @@ use yii\bootstrap5\Html;
     <?php $form = ActiveForm::begin([]); ?>
 
         <?= $form->field($model, 'nome') ?>
-        <?= $form->field($model, 'cpf/cnpj') ?>
+        <?= $form->field($model, 'cpfcnpj') ?>
         <?= $form->field($model, 'telefone') ?>
         <?= $form->field($model, 'endereco') ?>
         <?= $form->field($model, 'email') ?>
