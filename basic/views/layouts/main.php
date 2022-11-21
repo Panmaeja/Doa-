@@ -39,7 +39,7 @@ $this->registerLinkTag(['rel' => 'icon', 'type' => 'image/x-icon', 'href' => '@w
     echo Nav::widget([
         'options' => ['class' => 'navbar-nav'],
         'items' => [
-            ['label' => 'Inico', 'url' => ['/site/index']],
+            ['label' => 'Inicio', 'url' => ['/site/index']],
             ['label' => 'Sobre', 'url' => ['/site/about']],
             ['label' => 'Cadastro', 'url' => ['/donatarios/create']],
             Yii::$app->user->isGuest
